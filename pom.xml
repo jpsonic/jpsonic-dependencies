@@ -13,7 +13,7 @@
     <versions.angus>2.0.3</versions.angus>
     <versions.ant>1.10.17</versions.ant>
     <versions.antlr>4.13.2</versions.antlr>
-    <versions.asm>9.9.1</versions.asm>
+    <versions.asm>9.10</versions.asm>
     <versions.checker-qual>4.1.0</versions.checker-qual>
     <versions.commons-beanutils>1.11.0</versions.commons-beanutils>
     <versions.commons-collections4>4.5.0</versions.commons-collections4>
@@ -44,12 +44,12 @@
     <versions.jupnp>3.0.4</versions.jupnp>
     <versions.kuromoji-ipadic>0.9.0</versions.kuromoji-ipadic>
     <versions.lastfm>0.1.2</versions.lastfm>
-    <versions.liquibase-core>5.0.2</versions.liquibase-core>
+    <versions.liquibase-core>5.0.3</versions.liquibase-core>
     <versions.liquibase-slf4j>5.1.0</versions.liquibase-slf4j>
     <versions.log4j>2.26.0</versions.log4j>
     <versions.logback>1.5.32</versions.logback>
     <versions.lucene>10.4.0</versions.lucene>
-    <versions.maven-artifact>3.9.15</versions.maven-artifact>
+    <versions.maven-artifact>3.9.16</versions.maven-artifact>
     <versions.mockito-junit-jupiter>5.20.0</versions.mockito-junit-jupiter>
     <versions.moxy>4.0.9</versions.moxy>
     <versions.mysql-connector-j>9.7.0</versions.mysql-connector-j>
