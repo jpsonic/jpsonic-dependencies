@@ -8,6 +8,10 @@
   <packaging>pom</packaging>
   <name>Jpsonic Dependencies</name>
 
+  <prerequisites>
+    <maven>3.6.3</maven>
+  </prerequisites>
+
   <properties>
     <versions.HikariCP>7.0.2</versions.HikariCP>
     <versions.angus>2.0.3</versions.angus>
@@ -548,8 +552,7 @@
 
   <build>
     <pluginManagement>
-      <plugins>
-      </plugins>
+      <plugins></plugins>
     </pluginManagement>
 
     <plugins>
