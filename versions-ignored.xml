@@ -12,5 +12,10 @@
         <ignoreVersion type="regex">(?i).*M(?:-?\d+)?</ignoreVersion>
     </ignoreVersions>
     <rules>
+      <rule groupId="org.eclipse.persistence" artifactId="org.eclipse.persistence.moxy">
+        <ignoreVersions>
+            <ignoreVersion type="regex">^([5-9]|\d{2,})\..*</ignoreVersion>
+        </ignoreVersions>
+      </rule>
     </rules>
 </ruleset>
