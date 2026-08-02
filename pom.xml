@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.tesshu.jpsonic</groupId>
   <artifactId>jpsonic-dependencies</artifactId>
-  <version>115.0.4</version>
+  <version>115.1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>Jpsonic Dependencies</name>
 
@@ -31,7 +31,7 @@
     <versions.ecj>3.46.0</versions.ecj>
     <versions.ehcache>2.6.11</versions.ehcache>
     <versions.hsqldb>2.7.4</versions.hsqldb>
-    <versions.httpclient5>5.6.2</versions.httpclient5>
+    <versions.httpclient5>5.6.3</versions.httpclient5>
     <versions.httpcore5>5.4.3</versions.httpcore5>
     <versions.icu4j>78.3</versions.icu4j>
     <versions.jakarta.servlet-api>6.1.0</versions.jakarta.servlet-api>
@@ -50,7 +50,7 @@
     <versions.liquibase-core>5.0.3</versions.liquibase-core>
     <versions.liquibase-slf4j>5.1.0</versions.liquibase-slf4j>
     <versions.log4j>2.26.1</versions.log4j>
-    <versions.logback>1.5.38</versions.logback>
+    <versions.logback>1.6.1</versions.logback>
     <versions.lucene>10.4.0</versions.lucene>
     <versions.maven-artifact>3.9.16</versions.maven-artifact>
     <versions.mockito-junit-jupiter>5.20.0</versions.mockito-junit-jupiter>
