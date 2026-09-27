@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.tesshu.jpsonic</groupId>
   <artifactId>jpsonic-dependencies</artifactId>
-  <version>115.1.1</version>
+  <version>115.1.2</version>
   <packaging>pom</packaging>
   <name>Jpsonic Dependencies</name>
 
@@ -15,7 +15,7 @@
   <properties>
     <versions.HikariCP>7.1.0</versions.HikariCP>
     <versions.angus>2.0.3</versions.angus>
-    <versions.ant>1.10.17</versions.ant>
+    <versions.ant>1.10.18</versions.ant>
     <versions.antlr>4.13.2</versions.antlr>
     <versions.asm>9.10.1</versions.asm>
     <versions.checker-qual>4.2.3</versions.checker-qual>
@@ -28,21 +28,21 @@
     <versions.commons-lang3>3.20.0</versions.commons-lang3>
     <versions.commons-net>3.13.0</versions.commons-net>
     <versions.commons-text>1.15.0</versions.commons-text>
-    <versions.ecj>3.46.0</versions.ecj>
+    <versions.ecj>3.46.100</versions.ecj>
     <versions.ehcache>2.6.11</versions.ehcache>
     <versions.hsqldb>2.7.4</versions.hsqldb>
     <versions.httpclient5>5.6.4</versions.httpclient5>
-    <versions.httpcore5>5.4.3</versions.httpcore5>
+    <versions.httpcore5>5.4.4</versions.httpcore5>
     <versions.icu4j>78.3</versions.icu4j>
     <versions.jakarta.servlet-api>6.1.0</versions.jakarta.servlet-api>
     <versions.jakarta.servlet.jsp-api>4.0.0</versions.jakarta.servlet.jsp-api>
     <versions.jakarta.servlet.jsp.jstl>3.0.1</versions.jakarta.servlet.jsp.jstl>
     <versions.jakarta.servlet.jsp.jstl-api>3.0.2</versions.jakarta.servlet.jsp.jstl-api>
     <versions.jaudiotagger>3.0.1</versions.jaudiotagger>
-    <versions.java-jwt>4.6.0</versions.java-jwt>
+    <versions.java-jwt>4.6.1</versions.java-jwt>
     <versions.jaxb-runtime>4.0.9</versions.jaxb-runtime>
     <versions.jdom2>2.0.6.1</versions.jdom2>
-    <versions.jetty>12.1.12</versions.jetty>
+    <versions.jetty>12.1.13</versions.jetty>
     <versions.jfreechart>1.5.6</versions.jfreechart>
     <versions.jupnp>3.0.5</versions.jupnp>
     <versions.kuromoji-ipadic>0.9.0</versions.kuromoji-ipadic>
@@ -50,7 +50,7 @@
     <versions.liquibase-core>5.0.4</versions.liquibase-core>
     <versions.liquibase-slf4j>5.1.0</versions.liquibase-slf4j>
     <versions.log4j>2.26.1</versions.log4j>
-    <versions.logback>1.6.3</versions.logback>
+    <versions.logback>1.6.4</versions.logback>
     <versions.lucene>10.4.0</versions.lucene>
     <versions.maven-artifact>3.9.16</versions.maven-artifact>
     <versions.mockito-junit-jupiter>5.20.0</versions.mockito-junit-jupiter>
@@ -62,7 +62,7 @@
     <versions.spring-boot>4.1.1</versions.spring-boot>
     <versions.stax-ex>2.1.0</versions.stax-ex>
     <versions.tika>3.3.2</versions.tika>
-    <versions.tomcat>11.0.25</versions.tomcat>
+    <versions.tomcat>11.0.26</versions.tomcat>
     <versions.yuicompressor>2.4.8</versions.yuicompressor>
   </properties>
 
@@ -578,7 +578,7 @@
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>versions-maven-plugin</artifactId>
-        <version>2.21.0</version>
+        <version>2.22.0</version>
         <configuration>
           <rulesUri>file:///${project.basedir}/versions-ignored.xml</rulesUri>
         </configuration>
